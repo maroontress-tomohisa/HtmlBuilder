@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.1</TargetFramework>
     <RootNamespace>Maroontress.HtmlBuilder</RootNamespace>
     <AssemblyName>Maroontress.HtmlBuilder</AssemblyName>
-    <LangVersion>10</LangVersion>
+    <LangVersion>13</LangVersion>
     <Nullable>enable</Nullable>
     <DocumentationFile>dcx\Maroontress.HtmlBuilder.xml</DocumentationFile>
   </PropertyGroup>
@@ -44,10 +44,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="StyleChecker" Version="1.0.27" PrivateAssets="all" />
+    <PackageReference Include="StyleChecker" Version="2.0.2-beta" PrivateAssets="all" />
     <PackageReference Include="StyleChecker.Annotations" Version="1.0.1" />
     <PackageReference Include="Maroontress.Collection" Version="1.0.0" />
-    <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.435" PrivateAssets="all" />
+    <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.556" PrivateAssets="all" />
   </ItemGroup>
 
   <ItemGroup>
